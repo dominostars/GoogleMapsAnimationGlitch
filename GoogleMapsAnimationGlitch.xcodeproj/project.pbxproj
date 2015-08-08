@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB95E2581B765F80009201B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95E2571B765F80009201B9 /* AppDelegate.swift */; };
+		FB95E25A1B765F80009201B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95E2591B765F80009201B9 /* ViewController.swift */; };
+		FB95E25D1B765F80009201B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB95E25B1B765F80009201B9 /* Main.storyboard */; };
+		FB95E25F1B765F80009201B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB95E25E1B765F80009201B9 /* Images.xcassets */; };
+		FB95E2621B765F80009201B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB95E2601B765F80009201B9 /* LaunchScreen.xib */; };
+		FB95E26E1B765F80009201B9 /* GoogleMapsAnimationGlitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95E26D1B765F80009201B9 /* GoogleMapsAnimationGlitchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB95E2681B765F80009201B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB95E24A1B765F80009201B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB95E2511B765F80009201B9;
+			remoteInfo = GoogleMapsAnimationGlitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB95E2521B765F80009201B9 /* GoogleMapsAnimationGlitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsAnimationGlitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB95E2561B765F80009201B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB95E2571B765F80009201B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB95E2591B765F80009201B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB95E25C1B765F80009201B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB95E25E1B765F80009201B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB95E2611B765F80009201B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB95E2671B765F80009201B9 /* GoogleMapsAnimationGlitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapsAnimationGlitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB95E26C1B765F80009201B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB95E26D1B765F80009201B9 /* GoogleMapsAnimationGlitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsAnimationGlitchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB95E24F1B765F80009201B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95E2641B765F80009201B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB95E2491B765F80009201B9 = {
+			isa = PBXGroup;
+			children = (
+				FB95E2541B765F80009201B9 /* GoogleMapsAnimationGlitch */,
+				FB95E26A1B765F80009201B9 /* GoogleMapsAnimationGlitchTests */,
+				FB95E2531B765F80009201B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB95E2531B765F80009201B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB95E2521B765F80009201B9 /* GoogleMapsAnimationGlitch.app */,
+				FB95E2671B765F80009201B9 /* GoogleMapsAnimationGlitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB95E2541B765F80009201B9 /* GoogleMapsAnimationGlitch */ = {
+			isa = PBXGroup;
+			children = (
+				FB95E2571B765F80009201B9 /* AppDelegate.swift */,
+				FB95E2591B765F80009201B9 /* ViewController.swift */,
+				FB95E25B1B765F80009201B9 /* Main.storyboard */,
+				FB95E25E1B765F80009201B9 /* Images.xcassets */,
+				FB95E2601B765F80009201B9 /* LaunchScreen.xib */,
+				FB95E2551B765F80009201B9 /* Supporting Files */,
+			);
+			path = GoogleMapsAnimationGlitch;
+			sourceTree = "<group>";
+		};
+		FB95E2551B765F80009201B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB95E2561B765F80009201B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB95E26A1B765F80009201B9 /* GoogleMapsAnimationGlitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB95E26D1B765F80009201B9 /* GoogleMapsAnimationGlitchTests.swift */,
+				FB95E26B1B765F80009201B9 /* Supporting Files */,
+			);
+			path = GoogleMapsAnimationGlitchTests;
+			sourceTree = "<group>";
+		};
+		FB95E26B1B765F80009201B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB95E26C1B765F80009201B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB95E2511B765F80009201B9 /* GoogleMapsAnimationGlitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB95E2711B765F80009201B9 /* Build configuration list for PBXNativeTarget "GoogleMapsAnimationGlitch" */;
+			buildPhases = (
+				FB95E24E1B765F80009201B9 /* Sources */,
+				FB95E24F1B765F80009201B9 /* Frameworks */,
+				FB95E2501B765F80009201B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMapsAnimationGlitch;
+			productName = GoogleMapsAnimationGlitch;
+			productReference = FB95E2521B765F80009201B9 /* GoogleMapsAnimationGlitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB95E2661B765F80009201B9 /* GoogleMapsAnimationGlitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB95E2741B765F80009201B9 /* Build configuration list for PBXNativeTarget "GoogleMapsAnimationGlitchTests" */;
+			buildPhases = (
+				FB95E2631B765F80009201B9 /* Sources */,
+				FB95E2641B765F80009201B9 /* Frameworks */,
+				FB95E2651B765F80009201B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB95E2691B765F80009201B9 /* PBXTargetDependency */,
+			);
+			name = GoogleMapsAnimationGlitchTests;
+			productName = GoogleMapsAnimationGlitchTests;
+			productReference = FB95E2671B765F80009201B9 /* GoogleMapsAnimationGlitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB95E24A1B765F80009201B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Lazy Arcade";
+				TargetAttributes = {
+					FB95E2511B765F80009201B9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FB95E2661B765F80009201B9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FB95E2511B765F80009201B9;
+					};
+				};
+			};
+			buildConfigurationList = FB95E24D1B765F80009201B9 /* Build configuration list for PBXProject "GoogleMapsAnimationGlitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB95E2491B765F80009201B9;
+			productRefGroup = FB95E2531B765F80009201B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB95E2511B765F80009201B9 /* GoogleMapsAnimationGlitch */,
+				FB95E2661B765F80009201B9 /* GoogleMapsAnimationGlitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB95E2501B765F80009201B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95E25D1B765F80009201B9 /* Main.storyboard in Resources */,
+				FB95E2621B765F80009201B9 /* LaunchScreen.xib in Resources */,
+				FB95E25F1B765F80009201B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95E2651B765F80009201B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB95E24E1B765F80009201B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95E25A1B765F80009201B9 /* ViewController.swift in Sources */,
+				FB95E2581B765F80009201B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB95E2631B765F80009201B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95E26E1B765F80009201B9 /* GoogleMapsAnimationGlitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB95E2691B765F80009201B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB95E2511B765F80009201B9 /* GoogleMapsAnimationGlitch */;
+			targetProxy = FB95E2681B765F80009201B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB95E25B1B765F80009201B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB95E25C1B765F80009201B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB95E2601B765F80009201B9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB95E2611B765F80009201B9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB95E26F1B765F80009201B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB95E2701B765F80009201B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB95E2721B765F80009201B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleMapsAnimationGlitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB95E2731B765F80009201B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleMapsAnimationGlitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB95E2751B765F80009201B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleMapsAnimationGlitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMapsAnimationGlitch.app/GoogleMapsAnimationGlitch";
+			};
+			name = Debug;
+		};
+		FB95E2761B765F80009201B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleMapsAnimationGlitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMapsAnimationGlitch.app/GoogleMapsAnimationGlitch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB95E24D1B765F80009201B9 /* Build configuration list for PBXProject "GoogleMapsAnimationGlitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB95E26F1B765F80009201B9 /* Debug */,
+				FB95E2701B765F80009201B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB95E2711B765F80009201B9 /* Build configuration list for PBXNativeTarget "GoogleMapsAnimationGlitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB95E2721B765F80009201B9 /* Debug */,
+				FB95E2731B765F80009201B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB95E2741B765F80009201B9 /* Build configuration list for PBXNativeTarget "GoogleMapsAnimationGlitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB95E2751B765F80009201B9 /* Debug */,
+				FB95E2761B765F80009201B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB95E24A1B765F80009201B9 /* Project object */;
+}
