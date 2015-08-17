@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GoogleMapsAnimationGlitch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +15,40 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fet-ss-vtf" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8S-hh-DIo">
+                                <rect key="frame" x="269.5" y="548" width="60" height="44"/>
+                                <color key="backgroundColor" red="0.11525915902745121" green="0.0010979964881299153" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Y6o-5Q-lN1"/>
+                                    <constraint firstAttribute="height" constant="44" id="yga-lg-iUc"/>
+                                </constraints>
+                                <state key="normal" title="Press">
+                                    <color key="titleColor" red="0.9398362835432772" green="0.98590535257693357" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button" destination="BYZ-38-t0r" eventType="touchUpInside" id="AmJ-Nm-eIa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Y8S-hh-DIo" secondAttribute="bottom" constant="8" id="6OV-df-ksB"/>
+                            <constraint firstAttribute="centerX" secondItem="Y8S-hh-DIo" secondAttribute="centerX" id="HW6-fD-P3g"/>
+                            <constraint firstItem="fet-ss-vtf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KLF-ff-joR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fet-ss-vtf" secondAttribute="bottom" id="NJZ-Jq-seG"/>
+                            <constraint firstAttribute="trailing" secondItem="fet-ss-vtf" secondAttribute="trailing" id="h0n-Y9-JfT"/>
+                            <constraint firstItem="fet-ss-vtf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pe8-GX-VND"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="fet-ss-vtf" id="OA9-dE-h99"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9BD5E41BD3A6B899F4928EE /* Pods_GoogleMapsAnimationGlitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7D3694E284D9DF112BF7C9 /* Pods_GoogleMapsAnimationGlitch.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FB95E2581B765F80009201B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95E2571B765F80009201B9 /* AppDelegate.swift */; };
 		FB95E25A1B765F80009201B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB95E2591B765F80009201B9 /* ViewController.swift */; };
 		FB95E25D1B765F80009201B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB95E25B1B765F80009201B9 /* Main.storyboard */; };
@@ -26,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13CB0981CA8A8C64C784ECC4 /* Pods-GoogleMapsAnimationGlitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsAnimationGlitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsAnimationGlitch/Pods-GoogleMapsAnimationGlitch.release.xcconfig"; sourceTree = "<group>"; };
+		4A86160C0E8FF625921B6D89 /* Pods-GoogleMapsAnimationGlitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMapsAnimationGlitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleMapsAnimationGlitch/Pods-GoogleMapsAnimationGlitch.debug.xcconfig"; sourceTree = "<group>"; };
+		6C7D3694E284D9DF112BF7C9 /* Pods_GoogleMapsAnimationGlitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMapsAnimationGlitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB95E2521B765F80009201B9 /* GoogleMapsAnimationGlitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsAnimationGlitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB95E2561B765F80009201B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB95E2571B765F80009201B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9BD5E41BD3A6B899F4928EE /* Pods_GoogleMapsAnimationGlitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CC66595A7B89190F0F2B942 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A86160C0E8FF625921B6D89 /* Pods-GoogleMapsAnimationGlitch.debug.xcconfig */,
+				13CB0981CA8A8C64C784ECC4 /* Pods-GoogleMapsAnimationGlitch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA94E7D79E0665B29DBDD3D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D3694E284D9DF112BF7C9 /* Pods_GoogleMapsAnimationGlitch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB95E2491B765F80009201B9 = {
 			isa = PBXGroup;
 			children = (
 				FB95E2541B765F80009201B9 /* GoogleMapsAnimationGlitch */,
 				FB95E26A1B765F80009201B9 /* GoogleMapsAnimationGlitchTests */,
 				FB95E2531B765F80009201B9 /* Products */,
+				8CC66595A7B89190F0F2B942 /* Pods */,
+				AA94E7D79E0665B29DBDD3D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB95E2711B765F80009201B9 /* Build configuration list for PBXNativeTarget "GoogleMapsAnimationGlitch" */;
 			buildPhases = (
+				B9D586F898F7CEAA53B4A18F /* Check Pods Manifest.lock */,
 				FB95E24E1B765F80009201B9 /* Sources */,
 				FB95E24F1B765F80009201B9 /* Frameworks */,
 				FB95E2501B765F80009201B9 /* Resources */,
+				7C905922DC276620AEF43254 /* Copy Pods Resources */,
+				E7CE368C1586B1ED1F10AEFE /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +183,7 @@
 		FB95E24A1B765F80009201B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Lazy Arcade";
 				TargetAttributes = {
@@ -206,6 +234,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C905922DC276620AEF43254 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapsAnimationGlitch/Pods-GoogleMapsAnimationGlitch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D586F898F7CEAA53B4A18F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CE368C1586B1ED1F10AEFE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleMapsAnimationGlitch/Pods-GoogleMapsAnimationGlitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB95E24E1B765F80009201B9 /* Sources */ = {
@@ -294,6 +370,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,6 +409,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -340,6 +418,7 @@
 		};
 		FB95E2721B765F80009201B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A86160C0E8FF625921B6D89 /* Pods-GoogleMapsAnimationGlitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleMapsAnimationGlitch/Info.plist;
@@ -350,6 +429,7 @@
 		};
 		FB95E2731B765F80009201B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CB0981CA8A8C64C784ECC4 /* Pods-GoogleMapsAnimationGlitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleMapsAnimationGlitch/Info.plist;
@@ -411,6 +491,7 @@
 				FB95E2731B765F80009201B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB95E2741B765F80009201B9 /* Build configuration list for PBXNativeTarget "GoogleMapsAnimationGlitchTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +500,7 @@
 				FB95E2761B765F80009201B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
