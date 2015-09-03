@@ -17,6 +17,8 @@ public func executeAfter(delay: Double, queue: dispatch_queue_t? = nil, closure:
 class ViewController: UIViewController, GMSMapViewDelegate {
     @IBOutlet var mapView: GMSMapView!
     var markers: [GMSMarker] = []
+    // Temp array to keep removed markers alive for a short while.
+    var markersDelayedDelete: [GMSMarker] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,9 +52,15 @@ class ViewController: UIViewController, GMSMapViewDelegate {
 //        executeAfter(0.0) {
             for (var i = limit; i >= 0; i--) {
                 self.markers[i].map = nil
+                markersDelayedDelete.append(self.markers[i])
                 self.markers.removeAtIndex(i)
             }
 //        }
+
+        // Free all removed markers 1 second later.
+        executeAfter(1) {
+          self.markersDelayedDelete.removeAll(keepCapacity: false)
+        }
 
         for (i, marker) in markers.enumerate() {
             var originalPoint = CGPoint(x: self.mapView.bounds.size.width * (CGFloat(i)/10), y: self.mapView.bounds.size.height/2)
