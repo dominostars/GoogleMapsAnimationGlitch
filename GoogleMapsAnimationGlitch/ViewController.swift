@@ -40,7 +40,7 @@ class ViewController: UIViewController, GMSMapViewDelegate {
 
             CATransaction.setAnimationDuration(2)
             originalPoint.y = self.mapView.bounds.size.height / 3
-            let originalPositon = self.mapView.projection.coordinateForPoint(originalPoint)
+            _ = self.mapView.projection.coordinateForPoint(originalPoint)
             marker.position = self.mapView.projection.coordinateForPoint(originalPoint)
         }
     }
@@ -54,11 +54,11 @@ class ViewController: UIViewController, GMSMapViewDelegate {
             }
 //        }
 
-        for (i, marker) in enumerate(markers) {
+        for (i, marker) in markers.enumerate() {
             var originalPoint = CGPoint(x: self.mapView.bounds.size.width * (CGFloat(i)/10), y: self.mapView.bounds.size.height/2)
             CATransaction.setAnimationDuration(5)
             originalPoint.y = self.mapView.bounds.size.height
-            let originalPositon = self.mapView.projection.coordinateForPoint(originalPoint)
+            _ = self.mapView.projection.coordinateForPoint(originalPoint)
             marker.position = self.mapView.projection.coordinateForPoint(originalPoint)
             markers.append(marker)
         }
@@ -71,17 +71,10 @@ class ViewController: UIViewController, GMSMapViewDelegate {
 
             CATransaction.setAnimationDuration(5)
             originalPoint.y = self.mapView.bounds.size.height / 3
-            let originalPositon = self.mapView.projection.coordinateForPoint(originalPoint)
+            _ = self.mapView.projection.coordinateForPoint(originalPoint)
             marker.position = self.mapView.projection.coordinateForPoint(originalPoint)
             markers.append(marker)
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
